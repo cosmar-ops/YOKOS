@@ -8,14 +8,16 @@ Phase 1 static site for a direct-to-consumer sleep supplement brand. Radical hon
 - `magnesium.html`, `glycine.html`, `theanine.html`, `tart-cherry.html`, `apigenin.html` - product pages
 - `evidence.html` - the grading rules (A / B / C+ / C) and current grades
 - `lab.html` - batch certificate placeholders
+- `logo.html` - working logo proposal (not linked from navigation, delete when decided)
+- `logo.svg`, `logo-paper.svg`, `favicon.svg` - the identity files, built from Inter SemiBold letterforms
 
 ## Phase 1 rules baked in
 
 - Plain HTML + Tailwind via CDN. No build tools, no frameworks, no databases.
-- Brand name is the placeholder `BRAND` in every page. Find-and-replace with the real name when ready.
+- Brand name YOKOS is applied throughout (was the BRAND placeholder).
 - Buy buttons link to `#checkout` placeholders. No payment, checkout, subscription or tax code in any phase.
 - The FDA disclaimer appears verbatim in every footer.
 
-## How to view it live
+## Live site
 
-GitHub Pages, from your phone: repo Settings > Pages > Source: Deploy from a branch > Branch: `main`, folder `/ (root)` > Save. After about a minute the site is at `https://<username>.github.io/YOKOS/`.
+https://cosmar-ops.github.io/YOKOS/
