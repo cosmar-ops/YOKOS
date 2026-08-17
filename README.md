@@ -1,23 +1,11 @@
-# YOKOS
+# ELYVEN
 
 Phase 1 static site for a direct-to-consumer sleep supplement brand. Radical honesty: evidence grades on everything, study links on every claim, batch lab certificates public.
 
-## What is here
+Pages: home (star-field hero, hypnogram, stack, evening timeline), five product pages with molecular structures, evidence grading rules, lab certificates, logo proposal (logo.html, unlinked).
 
-- `index.html` - home: the stack, grade legend, "who this is not for"
-- `magnesium.html`, `glycine.html`, `theanine.html`, `tart-cherry.html`, `apigenin.html` - product pages
-- `evidence.html` - the grading rules (A / B / C+ / C) and current grades
-- `lab.html` - batch certificate placeholders
-- `logo.html` - working logo proposal (not linked from navigation, delete when decided)
-- `logo.svg`, `logo-paper.svg`, `favicon.svg` - the identity files, built from Inter SemiBold letterforms
+Rules baked in: plain HTML + Tailwind CDN, no build tools. Buy buttons are #checkout placeholders; no payment code in any phase. FDA disclaimer verbatim in every footer. Every evidence claim links to its study.
 
-## Phase 1 rules baked in
+Identity: logo.svg, logo-paper.svg, favicon.svg, generated from Inter SemiBold letterforms.
 
-- Plain HTML + Tailwind via CDN. No build tools, no frameworks, no databases.
-- Brand name YOKOS is applied throughout (was the BRAND placeholder).
-- Buy buttons link to `#checkout` placeholders. No payment, checkout, subscription or tax code in any phase.
-- The FDA disclaimer appears verbatim in every footer.
-
-## Live site
-
-https://cosmar-ops.github.io/YOKOS/
+To publish under the new name: rename this repository to ELYVEN in Settings, and the site moves to https://cosmar-ops.github.io/ELYVEN/
